@@ -2,7 +2,7 @@
 
 let nombreClienteHTML = document.querySelector(".nombre-cliente");
 
-const nombre = `nombre del cliente`; // Agregar
+const nombre = `nombre de cliente`; // Agregar
 
 nombreClienteHTML.innerHTML = nombre;
 

@@ -6,7 +6,9 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+html{
+	scroll-behavior: smooth;
+}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -70,6 +72,18 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+}
+.profile-image img{
+	height: 30vh;
+	width: 15em;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 576px){
+	.profile-image img{
+		height: 30vh;
+		width: 50%;
+	}
 }
 
 /* Basic */
