@@ -6,8 +6,8 @@ const nombre = `nombre del cliente`; // Agregar
 
 nombreClienteHTML.innerHTML = nombre;
 
-// Telefono
-const telefono = `89545745`; // Agregar
+// Telefono (siempre debe llevar codigo del pais)
+const telefono = `+50689545745`; // Agregar 
 
 const numeroDeTelefono = document.querySelector(".fa-phone");
 numeroDeTelefono.href = `tel:${telefono}`;
